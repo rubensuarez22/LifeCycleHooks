@@ -11,9 +11,9 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "reorder:dist": "npm run copy:browsercontent && npm run delete:browser",
-    "copy:browsercontent": "copyfiles dist/forms-app/browser/* dist/forms-app -f",
-    "delete:browser": "del-cli dist/forms-app/browser",
-    "copy:dist": "copyfiles dist/forms-app/* ./docs -f",
+    "copy:browsercontent": "copyfiles dist/lifecycle/browser/* dist/lifecycle -f",
+    "delete:browser": "del-cli dist/lifecycle/browser",
+    "copy:dist": "copyfiles dist/lifecycle/* ./docs -f",
     "delete:docs": "del-cli docs"
   },
   "private": true,
